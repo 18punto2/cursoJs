@@ -58,3 +58,5 @@ _nombre.addEventListener('focus',function(){
 _nombre.addEventListener('blur',function(){
     _nombre.setAttribute('value','no tiene foco');
 });
+
+/*load */

@@ -1,7 +1,6 @@
-//evento change
+/*//evento change
 
 var inputColorFavorito=document.getElementById('colorFavorito');
-
 inputColorFavorito.addEventListener('change',function(){
     var estado=document.getElementById('colorFavorito').checked;
     if(estado==true){
@@ -16,4 +15,13 @@ inputColorFavorito.addEventListener('change',function(){
         console.log('false');
     }
 });
-
+*/
+//load
+//window.addEventListener('load',function(){});
+//this
+var parrafos=document.getElementsByClassName('texto');
+for(var i=0;i<parrafos.length;i++){
+    parrafos[i].addEventListener('click',function(){
+        this.className='texto fondo-rojo';//this cambia en el ambito donde fue utilizada
+    });
+}
